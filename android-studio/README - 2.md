@@ -255,6 +255,7 @@ ui/declaring-layout.html
       <string name="Four">PURPLE</string>
       <string name="Five">YELLOW</string>
       <string name="Six">ORANGE</string>
+      <string name="Seven">Pink here</string>
       <string name="app_name">this is a constrain layout</string>
   </resources>
   ```
@@ -357,6 +358,20 @@ ui/declaring-layout.html
           app:layout_constraintRight_toLeftOf="parent"
           app:layout_constraintStart_toStartOf="parent"
           tools:layout_editor_absoluteY="115sp" />
+              
+       <TextView
+          android:id="@+id/seventhText"
+          android:layout_width="418dp"
+          android:layout_height="89dp"
+          android:background="#EB8FD0"
+          android:gravity="center"
+          android:padding="20dp"
+          android:text="@string/Seven"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintLeft_toLeftOf="parent"
+          app:layout_constraintRight_toLeftOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          tools:layout_editor_absoluteY="243dp" />
   
   </androidx.constraintlayout.widget.ConstraintLayout>
   ```
@@ -403,6 +418,7 @@ ui/declaring-layout.html
       xmlns:tools="http://schemas.android.com/tools"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
+      android:background="#C89C27B0"
       android:stretchColumns="*">
   
       <TableRow
@@ -414,7 +430,7 @@ ui/declaring-layout.html
               android:layout_width="352dp"
               android:layout_height="wrap_content"
               android:layout_weight="1"
-              android:background="#C89C27B0"
+              android:layout_marginLeft="12sp"
               android:text="@string/One" />
   
           <TextView
@@ -422,8 +438,8 @@ ui/declaring-layout.html
               android:layout_width="53dp"
               android:layout_height="wrap_content"
               android:layout_weight="1"
-              android:background="#C89C27B0"
               android:text="@string/Two"
+              android:layout_marginLeft="14sp"
               android:textAppearance="@style/TextAppearance.AppCompat.Body1"
               android:visibility="visible"
               tools:visibility="visible" />
@@ -437,16 +453,16 @@ ui/declaring-layout.html
               android:id="@+id/thirdText"
               android:layout_width="wrap_content"
               android:layout_height="match_parent"
+              android:layout_marginLeft="12sp"
               android:layout_weight="1"
-              android:background="#C89C27B0"
               android:text="@string/Three" />
   
           <TextView
               android:id="@+id/fourthText"
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
+              android:layout_marginLeft="15sp"
               android:layout_weight="1"
-              android:background="#C89C27B0"
               android:text="@string/Four" />
       </TableRow>
   
@@ -457,16 +473,15 @@ ui/declaring-layout.html
           <TextView
               android:id="@+id/fifthText"
               android:layout_width="307dp"
+              android:layout_marginLeft="12sp"
               android:layout_height="match_parent"
               android:layout_weight="1"
-              android:background="#C89C27B0"
               android:text="@string/Five" />
   
           <TextView
               android:id="@+id/sixthText"
               android:layout_width="wrap_content"
               android:layout_height="match_parent"
-              android:background="#C89C27B0"
               android:text="@string/Six" />
       </TableRow>
   
@@ -491,7 +506,6 @@ ui/declaring-layout.html
               android:layout_width="283dp"
               android:layout_height="match_parent"
               android:layout_weight="1"
-              android:background="#C89C27B0"
               android:text="@string/Seven" />
   
       </TableRow>
@@ -505,15 +519,14 @@ ui/declaring-layout.html
               android:layout_width="346dp"
               android:layout_height="match_parent"
               android:layout_weight="1"
-              android:background="#C89C27B0"
               android:text="@string/Eight" />
   
           <TextView
               android:id="@+id/ninthText"
               android:layout_width="wrap_content"
               android:layout_height="match_parent"
+              android:layout_marginLeft="17sp"
               android:layout_weight="1"
-              android:background="#C89C27B0"
               android:text="@string/Nine" />
       </TableRow>
       <TableRow
@@ -536,13 +549,17 @@ ui/declaring-layout.html
               android:id="@+id/tenthText"
               android:layout_width="wrap_content"
               android:layout_height="match_parent"
+              android:layout_marginLeft="12sp"
               android:layout_weight="1"
-              android:background="#C89C27B0"
               android:text="@string/Ten" />
   
       </TableRow>
   
   </TableLayout>
+  ```
+
+  ```java
+  
   ```
 
 - Preview
