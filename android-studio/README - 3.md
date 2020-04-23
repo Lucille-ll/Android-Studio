@@ -2,7 +2,7 @@
 
 ## 一、**Android ListView**的用法
 
-![](./images3/0.png)
+![0](./images3/0.png)
 
 - MainActivity.java
 
@@ -201,15 +201,15 @@
 
 - drawable中的png
 
-  ![](./images3/1.png)
+  ![1](./images3/1.png)
 
   <!--效果展示-->
 
-  ![](./images3/2.png)
+  ![2](./images3/2.png)
 
 ## 二、**创建自定义布局的**AlertDialog
 
-![](./images3/00.png)
+![00](./images3/00.png)
 
 - MainActivity.java
 
@@ -333,13 +333,13 @@
 
 <!--效果展示-->
 
-![](./images3/3.png)
+![3](./images3/3.png)
 
 ![](./images3/4.png)
 
 ## 三、使用**XML**定义菜单
 
-![](./images3/000.png)
+![000](./images3/000.png)
 
 - MainActivity.java
 
@@ -461,15 +461,15 @@
 
 <!--效果展示-->
 
-![](./images3/5.png)
+![5](./images3/5.png)
 
 
 
-![](./images3/7.png)
+![7](./images3/7.png)
 
 ## 四、创建上下文操作模式**(ActionMode)**的上下文菜单
 
-![](./images3/0000.png)
+![0000](./images3/0000.png)
 
 - MainActivity.java
 
@@ -843,11 +843,11 @@
 
 - drawable的png
 
-  ![](./images3/8.png)
+  ![8](./images3/8.png)
 
 <!--效果展示-->
 
-![](./images3/9.png)
+![9](./images3/9.png)
 
 
 
