@@ -1,5 +1,7 @@
 #  **Android****界面布局实验**
 
+（完整工程放在仓库Android_Studio_Code1<https://github.com/Lucille-ll/Android-Studio-Code1>)
+
 ## 一、学习官方文档： 
 
 https://developer.android.google.cn/guide/topics/ 
