@@ -6,7 +6,7 @@
 
 - 第二个应用：自定义WebView来加载URL。
 
-**二、具体编程如下：**
+**二、具体编程如下：**（完整工程放到仓库Android_Studio_Code3<https://github.com/Lucille-ll/Android_Studio_Code3>)
 
 - MainActivity.java:
 
